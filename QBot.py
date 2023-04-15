@@ -262,7 +262,6 @@ def chat_nb(msg, session):
             return '语音回复已关闭'
         if '重置会话' == msg.strip():
             reset_nb_session(session['id'])
-            return 'Bing会话已重置'
             cmd_test()
             restart_program()
             
