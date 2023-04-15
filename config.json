@@ -1,0 +1,40 @@
+{
+    "openai": {
+         "api_key": ["请替换成你的api Key","请替换成你的api Key"],
+         "img_size": "1024x1024"
+    },
+    "chatgpt": {
+        "model": "gpt-3.5-turbo",
+        "temperature": 0.9,
+        "max_tokens": 3000,
+        "top_p": 1,
+        "echo": false,
+        "presence_penalty": 0,
+        "frequency_penalty": 0,
+        "preset": "你是我的人工智能助手，名字叫小猪"
+    },
+    "new_bing": {
+        "cookie_path": "cookies.json",
+        "conversation_style": "h3relaxedimg"
+    },
+    "qq_bot": {
+        "qq_no": "换成你自己QQ机器人的QQ号",
+        "cqhttp_url": "http://localhost:8600",
+        "max_length": 9999,
+        "image_path": "../QBot/data/images",
+        "voice_path": "存放生成的音频文件的路径，填绝对路径",
+        "voice": "zh-CN-XiaoyiNeural",
+        "auto_confirm": false,
+        "admin_qq": "你自己的qq号"
+    },
+    "text_to_image": {
+        "font_size": 30,
+        "width": 700,
+        "font_path": "fonts/sarasa-mono-sc-regular.ttf",
+        "offset_x": 50,
+        "offset_y": 50
+    },
+    "replicate": {
+        "api_token": "换成你自己的key"
+    }
+}
