@@ -262,9 +262,10 @@ def chat_nb(msg, session):
             return '语音回复已关闭'
         if '重置会话' == msg.strip():
             reset_nb_session(session['id'])
+            return 'Bing会话已重置'
             cmd_test()
             restart_program()
-            return 'Bing会话已重置'
+            
         if '指令说明' == msg.strip():
             return "指令如下(群内需@机器人)：\n1.[重置会话] 请发送 重置会话\n2.[设置人格] 请发送 设置人格+人格描述\n3.[重置人格] 请发送 重置人格\n4.[指令说明] 请发送 " \
                    "指令说明\n注意：\n重置会话不会清空人格,重置人格会重置会话!\n设置人格后人格将一直存在，除非重置人格或重启逻辑端!"
